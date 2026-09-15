@@ -56,3 +56,11 @@ line 5  [அடிவானில்?]     The second letter looks like பு a
 Legibility: good — clear ballpoint, no fading, every line recoverable at
 full resolution. The photo was taken in landscape and needed rotating; a
 shadow crosses the middle of the page but obscures nothing.
+
+------------------------------------------------
+Resolved 2026-09-15 — confirmed by the author via Karthik
+------------------------------------------------
+Lines 1, 3, 4, 5: readings confirmed as transcribed.
+Line 2: she asked for the standard spelling — உண்ணாமலே replaces the
+        page's உணாமலே in the final text. Author's decision; the page
+        reading is kept above.
