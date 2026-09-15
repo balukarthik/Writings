@@ -1,0 +1,34 @@
+WORKING DRAFT — not the archive copy. The clean text lives in nambikkai.txt.
+
+Keep this file. It is the audit trail: it records which notebook page every
+line came from, and which readings were ever in doubt.
+
+Conventions
+-----------
+[[p012]]   at the start of each notebook page, matching the photo filename
+           nambikkai-p012.jpg — so any sentence can be traced back to the paper
+[?]        a word that cannot be read with confidence
+[சொல்?]     a best guess, with the doubt marked — resolve it, do not leave it
+[[blank]]  a page with nothing written on it (record it, so gaps are visible)
+[margin: …] an insertion from the margin, placed where it belongs in the text
+[note: …]  something on the page that is not part of the work (a date, a list)
+
+Resolve every [?] before the text goes into nambikkai.txt. Ask her — she can
+almost certainly read her own hand, and a guess becomes her sentence in every
+copy that follows.
+
+------------------------------------------------
+
+
+[note: source is typed text, received as a pasted message via Karthik on
+ 2026-09-15 — no image, no notebook page. Title "நம்பிக்கை" and the date
+ of writing, 2025-09-19, are hers, given with the text. Her punctuation
+ (two, three and four dots) is kept exactly as received; the text opens
+ with the title word itself, which is part of her text and kept.]
+
+நம்பிக்கை
+
+நம்பிக்கை.... காலையில் கண் விழிக்கின்றோம்... இரு கை கூப்பி இறைவனை வணங்குகின்றோம்.. இன்றைய பொழுது நல்ல பொழுதாகும் என்ற நம்பிக்கை... நம் கடமைகளுக்காக வெளியே செல்கின்றோம்.. பத்திரமாக திரும்பி வருவோம் என்ற நம்பிக்கை.. வேலைக்குச் செல்கின்றோம்.. போகுமிடத்தில் நற்பெயர் பெறுவோம் என்ற நம்பிக்கை.. உணவு உட்கொள்கின்றோம்.. நம் வயிறு அதை ஏற்றுக் கொள்ளும் என்ற நம்பிக்கை.. அழகான ஆடைகள் அணிகின்றோம்.. அனைவரும் ரசிப்பார்கள் என்ற நம்பிக்கை.. ஓயாமல் பேசுகின்றோம்.. ஒரு சிலராவது கேட்பார்கள் என்ற நம்பிக்கை... இரவில் உறங்க செல்கின்றோம்... அமைதியாக உறங்குவோம் என்ற நம்பிக்கை.. உறக்கத்தில் நல்ல கனவுகள் காண்கின்றோம்.. அந்த கனவுகள் நனவாகும் என்ற நம்பிக்கை.. மொத்தத்தில் நம்பிக்கை தான் வாழ்க்கை.. எனவே தன்னம்பிக்கையை ஒரு போதும் கை விடாதீர்கள்.. வாழ்க்கை வாழ்வதற்கே...
+
+------------------------------------------------
+Legibility: typed text, fully legible; no doubtful readings.
