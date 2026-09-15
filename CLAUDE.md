@@ -70,6 +70,8 @@ archive.org — **never in this repository** (`.gitignore` enforces it).
 
 ## What Claude cannot do from a remote session
 
-archive.org and web.archive.org are network-blocked and need Karthik's login
-regardless — steps 7–8 of the README are his. Claude prepares
-`works/<slug>/archive-metadata.md` so that upload is copy-and-paste.
+archive.org and web.archive.org are network-blocked and need Karthik's
+credentials regardless. `tools/upload-ia.sh works/<slug> --date …` does the
+upload and Wayback snapshot in one command **on his machine** (after a
+one-time `ia configure`). From a remote session, Claude gets the work to the
+point where that command is all that is left, and never runs it.

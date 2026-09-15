@@ -79,15 +79,21 @@ Then:
 5. **Build the PDF**: `tools/make-pdf.sh works/mazhai-kathai/mazhai-kathai.txt`
 6. **Commit and push** the `.txt`. (The PDF is gitignored — it is a build
    product, and this repo stays text-only.)
-7. **Upload to archive.org** using `works/<slug>/archive-metadata.md`. Set the
-   language to Tamil. One item per finished work.
-8. **Wayback** the resulting item page at https://web.archive.org/save
+7. **Upload to archive.org** — one command, no web form:
+   `tools/upload-ia.sh works/<slug> --date YYYY-MM-DD`. It reads the title
+   and year from the file's own header, refuses if any `[?]` is left, sets
+   the language to Tamil and the licence to CC BY 4.0, and uploads the
+   `.txt` + `.pdf` (+ `-scans.pdf` if present) as one item. One-time setup:
+   `pip install internetarchive && ia configure`. The web form is the
+   fallback; `works/<slug>/archive-metadata.md` holds the same values.
+8. **Wayback** — the script does this too, and prints the snapshot URL. If it
+   reports "not confirmed", paste the item URL at https://web.archive.org/save
 9. Record both URLs in `archive-metadata.md` and commit.
 10. **FreeTamilEbooks** — only for a full book or collection, using
     `templates/freetamilebooks-email.md`.
 
-Steps 7 and 8 must be done from a signed-in browser; everything above them can
-be scripted.
+Steps 7 and 8 need archive.org credentials on the machine running them, so
+they happen on Karthik's computer, not in a remote session.
 
 ## Notebooks come first
 
