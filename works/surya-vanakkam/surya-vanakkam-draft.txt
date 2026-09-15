@@ -61,6 +61,9 @@ shadow crosses the middle of the page but obscures nothing.
 Resolved 2026-09-15 — confirmed by the author via Karthik
 ------------------------------------------------
 Lines 1, 3, 4, 5: readings confirmed as transcribed.
-Line 2: she asked for the standard spelling — உண்ணாமலே replaces the
-        page's உணாமலே in the final text. Author's decision; the page
-        reading is kept above.
+Line 2: the transcriber misread the word. The page says உணராமலே
+        (uṇarāmalē, "without perceiving") — the ர after ணா was missed and
+        the word was taken for உணாமலே / உண்ணாமலே. Corrected on the
+        author's instruction; the final text reads உணராமலே புலர்ந்து.
+        Lesson for later pages: a dropped letter can still leave a real
+        word, so a sense-check against the line is not enough on its own.
