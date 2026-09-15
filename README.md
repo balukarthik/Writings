@@ -124,19 +124,26 @@ it may change how you shoot the rest.
 ## Transcribing handwriting
 
 Google Lens and Docs OCR read printed Tamil well and handwritten Tamil badly —
-badly enough that cleaning their output usually costs more than typing from
-scratch. Realistic options, in order of how well they tend to work:
+badly enough that cleaning their output costs more than typing from scratch.
+They are not used here.
 
-1. **Ask Claude to read the photos.** It handles handwriting far better than
-   OCR because it reads words in context rather than shape by shape. It still
-   makes mistakes — ல/ள/ழ and ன/ண especially — so its output is a draft with
-   `[?]` markers, never the final file.
-2. **Type it, with her reading aloud.** Slower per page, but it resolves the
-   unreadable words at the same time, and it is the only method where the
-   author is in the loop while the text is being made.
-3. **Type it yourself** with Gboard Tamil, marking `[?]` for anything doubtful.
+**Claude reads the photos.** It handles handwriting far better than OCR
+because it reads words in context rather than shape by shape. `CLAUDE.md`
+holds its standing instructions, so any session that opens this repository
+already knows the conventions. In a Claude Code session on this repo:
 
-Whichever is used, step 3 above does not get skipped.
+1. Attach the page photos (or point it at their Drive folder).
+2. Ask: *"transcribe these into the draft for `<slug>`"* — or, before a work
+   has been identified, *"transcribe notebook `<id>` pages 1–5"* into a
+   scratch draft.
+3. Claude writes `works/<slug>/<slug>-draft.txt` with `[[pNNN]]` page
+   markers and `[?]` on every doubtful word, commits it, and reports per page
+   how legible it was and which words need her.
+
+It still makes mistakes — ல/ள/ழ and ன/ண especially — so its output is a draft
+with doubts marked, never the final file. Resolving the `[?]` marks with her is
+step 3 above, and it does not get skipped. A few pages per session, checked,
+beats fifty pages of drift.
 
 ## Why more than one place
 

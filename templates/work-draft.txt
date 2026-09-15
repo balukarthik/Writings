@@ -10,6 +10,8 @@ Conventions
 [?]        a word that cannot be read with confidence
 [சொல்?]     a best guess, with the doubt marked — resolve it, do not leave it
 [[blank]]  a page with nothing written on it (record it, so gaps are visible)
+[margin: …] an insertion from the margin, placed where it belongs in the text
+[note: …]  something on the page that is not part of the work (a date, a list)
 
 Resolve every [?] before the text goes into {{SLUG}}.txt. Ask her — she can
 almost certainly read her own hand, and a guess becomes her sentence in every
