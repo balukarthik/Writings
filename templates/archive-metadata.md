@@ -1,7 +1,11 @@
 # archive.org upload sheet — {{TITLE_TA}}
 
-Fill nothing in here by hand: `tools/new-work.sh` already substituted your
+Fill nothing in here by hand: `tools/new-work.sh` already substituted the
 details. Open https://archive.org, click **Upload**, and copy each value across.
+
+The **Creator is the author — {{AUTHOR_TA}} — not the account doing the
+uploading.** archive.org has no separate field for a custodian, so the
+transcriber is credited in the description instead.
 
 ## Files to upload (all three)
 
@@ -16,7 +20,7 @@ details. Open https://archive.org, click **Upload**, and copy each value across.
 | Page title | {{TITLE_TA}} |
 | Identifier | `{{SLUG}}-{{AUTHOR_SLUG}}-{{YEAR}}` |
 | Creator | {{AUTHOR_TA}} / {{AUTHOR_EN}} |
-| Date | {{YEAR}}-MM-DD (the real date) |
+| Date | {{YEAR}} — the year it was **written**, not the year scanned |
 | Language | **Tamil** (`tam`) — must not be left as English |
 | Collection | Community Texts |
 | Licence | CC BY 4.0 |
@@ -25,7 +29,9 @@ details. Open https://archive.org, click **Upload**, and copy each value across.
 ## Description (paste as-is, then add a Tamil sentence or two above it)
 
 ```
-Original Tamil short story by {{AUTHOR_EN}} ({{AUTHOR_TA}}), {{YEAR}}.
+Original Tamil work by {{AUTHOR_TA}} ({{AUTHOR_EN}}), written {{YEAR}}.
+Digitised from the author's manuscript and published with her permission by
+{{CUSTODIAN_EN}}, {{DIGITIZED_YEAR}}.
 Licensed CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
 ```
 
@@ -38,6 +44,6 @@ Licensed CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
 - Wayback snapshot: _(paste here)_
 
 **Why the language field matters:** if it is left as English, archive.org runs
-English OCR over your scans and stores mangled text as the item's searchable
+English OCR over the scans and stores mangled text as the item's searchable
 content. The `.txt` you uploaded is the defence against that — it is the only
 copy guaranteed to be correct.

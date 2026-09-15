@@ -1,6 +1,7 @@
 தலைப்பு: {{TITLE_TA}}
 ஆசிரியர்: {{AUTHOR_TA}} / {{AUTHOR_EN}}
-ஆண்டு: {{YEAR}}
+எழுதப்பட்ட ஆண்டு: {{YEAR}}
+மின்வடிவாக்கம்: {{DIGITIZED_YEAR}} — {{CUSTODIAN_TA}} / {{CUSTODIAN_EN}}
 உரிமம்: {{LICENSE_NAME}}
 உரிம இணைப்பு: {{LICENSE_URL}}
 
