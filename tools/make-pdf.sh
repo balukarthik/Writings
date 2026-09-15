@@ -47,7 +47,7 @@ pathlib.Path(dst).write_text(f"""<!doctype html>
   @page {{ size: A4; margin: 2.2cm 2cm; }}
   body {{ font-family: 'Noto Serif Tamil', 'Noto Sans Tamil', serif;
          font-size: 12pt; line-height: 1.6; }}
-  p {{ margin: 0 0 0.35em 0; }}
+  p {{ margin: 0 0 0.35em 0; white-space: pre-wrap; }}  /* keep verse indents */
 </style>
 <body>
 {body}

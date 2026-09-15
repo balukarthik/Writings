@@ -1,3 +1,4 @@
 # One row per physical notebook. Status values: none, partial, done.
 # photographed/transcribed track progress; location is where the paper is.
 notebook_id,description,pages,photographed,transcribed,location,notes
+nb01,Printed 2016 daily diary used as a notebook,?,partial,partial,?,"first page photographed 2026-09-15 (p001 = surya-vanakkam, written 2024-08-18); page count and whereabouts to fill in"

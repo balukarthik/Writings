@@ -1,0 +1,58 @@
+WORKING DRAFT — not the archive copy. The clean text lives in surya-vanakkam.txt.
+
+Keep this file. It is the audit trail: it records which notebook page every
+line came from, and which readings were ever in doubt.
+
+Conventions
+-----------
+[[p012]]   at the start of each notebook page, matching the photo filename
+           surya-vanakkam-p012.jpg — so any sentence can be traced back to the paper
+[?]        a word that cannot be read with confidence
+[சொல்?]     a best guess, with the doubt marked — resolve it, do not leave it
+[[blank]]  a page with nothing written on it (record it, so gaps are visible)
+[margin: …] an insertion from the margin, placed where it belongs in the text
+[note: …]  something on the page that is not part of the work (a date, a list)
+
+Resolve every [?] before the text goes into surya-vanakkam.txt. Ask her — she can
+almost certainly read her own hand, and a guess becomes her sentence in every
+copy that follows.
+
+------------------------------------------------
+
+[[p001]]
+[note: written in a printed 2016 daily diary used as a notebook (nb01). The
+ page is headed "12 FRIDAY · FEBRUARY '16" with numbered hour lines 8–15.
+ The printed date is not the date of writing — written 2024-08-18 (per
+ Karthik). Blue ballpoint; title centred on the "Appointments" line.]
+
+சூரிய வணக்கம்
+
+[படுக்காமலே?] விழித்து,
+[உணாமலே?] புலர்ந்து,
+[கண்ணெதிரே?] மலர்ந்து,
+பார்த்துக் கொண்டிருக்கும் [பொழுதே?]
+[அடிவானில்?] சிவந்து தோன்றிய
+        செங்கதிரோனே
+உனக்கு என் காலை வணக்கங்கள்!
+
+------------------------------------------------
+Doubts — transcribed 2026-09-15, to confirm with her
+------------------------------------------------
+line 1  [படுக்காமலே?]   The letter after ப is a G-shaped loop — டு rather
+                         than ரு. "படுக்காமலே விழித்து" (awake without ever
+                         lying down) fits the sense. A small tick above ப
+                         looks like a stray mark, not a pulli.
+line 2  [உணாமலே?]        Written with a single ண — "உணாமலே". Standard form
+                         would be உண்ணாமலே. Transcribed as written; confirm
+                         whether she intends the short form.
+line 3  [கண்ணெதிரே?]     Written with a gap after கண். Read as one word
+                         கண்ணெதிரே (before the eyes); the தி is the least
+                         clear glyph on the page.
+line 4  [பொழுதே?]        Could be பொழுது; the final stroke looks like ே.
+line 5  [அடிவானில்?]     The second letter looks like பு as much as டி, but
+                         அடிவானில் (on the horizon) is the only reading that
+                         is a word.
+
+Legibility: good — clear ballpoint, no fading, every line recoverable at
+full resolution. The photo was taken in landscape and needed rotating; a
+shadow crosses the middle of the page but obscures nothing.
