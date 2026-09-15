@@ -67,9 +67,13 @@ subst() {
 
 subst < "$ROOT/templates/work-header.txt" > "$txt"
 subst < "$ROOT/templates/archive-metadata.md" > "$dir/archive-metadata.md"
+subst < "$ROOT/templates/work-draft.txt" > "$dir/$slug-draft.txt"
 
 echo "created $txt"
+echo "        $dir/$slug-draft.txt"
 echo "        $dir/archive-metadata.md"
 echo
-echo "next: paste the proofread Tamil text below the dashed line in the .txt,"
-echo "      then run: tools/make-pdf.sh works/$slug/$slug.txt"
+echo "next: transcribe into $slug-draft.txt, keeping [[pNNN]] page markers and"
+echo "      marking every doubtful word [?]. Once the doubts are resolved, the"
+echo "      clean text goes below the dashed line in $slug.txt, then:"
+echo "      tools/make-pdf.sh works/$slug/$slug.txt"

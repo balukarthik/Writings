@@ -1,7 +1,7 @@
 # Writings
 
-My mother's original Tamil writings, transcribed from her manuscripts and kept
-as plain UTF-8 text under Creative Commons Attribution 4.0.
+My mother's original Tamil writings — handwritten notebooks — transcribed and
+kept as plain UTF-8 text under Creative Commons Attribution 4.0.
 
 She is the author. This repository is custodianship — typing, typesetting and
 uploading — and that work carries no claim over the writing itself. Her name
@@ -17,12 +17,14 @@ lapsing.
 ## Layout
 
 ```
-author.conf              Her name, yours, the licence — filled in once, read by the scripts
-LICENSE                  CC BY 4.0
-templates/               Licence header · archive.org sheet · submission email
-tools/new-work.sh        Scaffold a new work with the header already stamped
-tools/make-pdf.sh        Build an upload-ready PDF, typeset in Noto Serif Tamil
-works/<slug>/<slug>.txt  One directory per finished work
+author.conf                    Her name, yours, the licence — filled in once, read by the scripts
+LICENSE                        CC BY 4.0
+notebooks/register.csv         The physical notebooks and what has been done with each
+templates/                     Licence header · working draft · archive.org sheet · email
+tools/new-work.sh              Scaffold a new work with the header already stamped
+tools/make-pdf.sh              Build an upload-ready PDF, typeset in Noto Serif Tamil
+works/<slug>/<slug>-draft.txt  Working transcript, with page markers and doubts
+works/<slug>/<slug>.txt        The finished text — the thing being preserved
 ```
 
 Directory and file names use a Latin-letter slug (`mazhai-kathai`), never Tamil
@@ -58,20 +60,20 @@ the archive.org upload form asks for.
 
 Then:
 
-1. **Photograph** the pages with a scanner app (Adobe Scan, or iPhone Notes →
-   Scan Documents) — not the plain camera. One page per shot, light from above,
-   phone parallel to the page. Handle the originals as the originals; the paper
-   is the thing the copies are made from.
-2. **Transcribe** to Tamil Unicode. Handwriting is where OCR fails hardest, so
-   treat whatever comes out as a draft, never as the file.
-3. **Proofread.** This is the actual work. The errors that matter: ல/ள/ழ,
-   ர/ற, ன/ண/ந, missing pulli (்), and lines put back in the wrong order.
-   Where you genuinely cannot read a word, mark it `[?]` rather than guessing,
-   and ask her — a guess becomes permanent the moment it is uploaded, and it
-   becomes *her* sentence in everyone else's copy. Resolve every `[?]` before
-   step 7.
-4. **Paste** the proofread text below the dashed line in the `.txt`. Keep it
-   UTF-8.
+1. **Photograph** the pages — see "Photographing handwriting" below. This is
+   the one step that touches the originals, so it is worth doing carefully and
+   once.
+2. **Transcribe** into `<slug>-draft.txt`, keeping the `[[p012]]` page markers
+   so every line can be traced back to the photo it came from. Handwriting is
+   where OCR fails hardest — see "Transcribing handwriting" below for what
+   actually works.
+3. **Resolve the doubts.** This is the actual work. The errors that matter:
+   ல/ள/ழ, ர/ற, ன/ண/ந, missing pulli (்), and lines put back in the wrong
+   order. Mark anything uncertain `[?]` rather than guessing, and ask her —
+   she can read her own hand, and a guess becomes *her* sentence in every copy
+   that follows. Resolve every `[?]` before step 7.
+4. **Move** the clean text below the dashed line in `<slug>.txt`, leaving the
+   draft in place as the audit trail. Keep it UTF-8.
 5. **Build the PDF**: `tools/make-pdf.sh works/mazhai-kathai/mazhai-kathai.txt`
 6. **Commit and push** the `.txt`. (The PDF is gitignored — it is a build
    product, and this repo stays text-only.)
@@ -84,6 +86,55 @@ Then:
 
 Steps 7 and 8 must be done from a signed-in browser; everything above them can
 be scripted.
+
+## Notebooks come first
+
+Photograph a notebook **completely** before pulling individual works out of
+it. Where a piece begins and ends is often not obvious until you can see the
+pages side by side on a screen, and capturing the whole book first means the
+paper is handled once rather than revisited every time a new story is found in
+it. `notebooks/register.csv` tracks which notebooks are photographed, which are
+transcribed, and where each physical book is.
+
+## Photographing handwriting
+
+Scanner apps are built for printed documents, and their defaults actively harm
+handwriting:
+
+- **Turn off the black-and-white / "document" filter.** It is tuned for printed
+  black on white and will drop faint pencil, thin strokes and anything written
+  in a lighter pen. Shoot in colour or greyscale.
+- **Shoot at full resolution** and stop the app downscaling. A pulli is a few
+  pixels; resolution is what makes it recoverable.
+- **One page per photo, never a spread.** Pages curve toward the spine, and a
+  curved page is what turns ஈ into ஈா in the transcript.
+- **Include the margins.** Corrections, insertions and afterthoughts live
+  there, and a tight crop silently deletes them.
+- **Photograph every page in order, blanks included**, named
+  `<notebook-id>-p001.jpg`. A missing number later is ambiguous — was the page
+  blank, or was it missed?
+- Diffuse light from above, phone parallel to the page, no hand shadow.
+
+Do **three pages first** and get them transcribed before committing to two
+hundred. How her particular hand comes out is only knowable by trying it, and
+it may change how you shoot the rest.
+
+## Transcribing handwriting
+
+Google Lens and Docs OCR read printed Tamil well and handwritten Tamil badly —
+badly enough that cleaning their output usually costs more than typing from
+scratch. Realistic options, in order of how well they tend to work:
+
+1. **Ask Claude to read the photos.** It handles handwriting far better than
+   OCR because it reads words in context rather than shape by shape. It still
+   makes mistakes — ல/ள/ழ and ன/ண especially — so its output is a draft with
+   `[?]` markers, never the final file.
+2. **Type it, with her reading aloud.** Slower per page, but it resolves the
+   unreadable words at the same time, and it is the only method where the
+   author is in the loop while the text is being made.
+3. **Type it yourself** with Gboard Tamil, marking `[?]` for anything doubtful.
+
+Whichever is used, step 3 above does not get skipped.
 
 ## Why more than one place
 

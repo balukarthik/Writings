@@ -1,0 +1,3 @@
+# One row per physical notebook. Status values: none, partial, done.
+# photographed/transcribed track progress; location is where the paper is.
+notebook_id,description,pages,photographed,transcribed,location,notes

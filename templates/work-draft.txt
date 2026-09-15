@@ -1,0 +1,20 @@
+WORKING DRAFT — not the archive copy. The clean text lives in {{SLUG}}.txt.
+
+Keep this file. It is the audit trail: it records which notebook page every
+line came from, and which readings were ever in doubt.
+
+Conventions
+-----------
+[[p012]]   at the start of each notebook page, matching the photo filename
+           {{SLUG}}-p012.jpg — so any sentence can be traced back to the paper
+[?]        a word that cannot be read with confidence
+[சொல்?]     a best guess, with the doubt marked — resolve it, do not leave it
+[[blank]]  a page with nothing written on it (record it, so gaps are visible)
+
+Resolve every [?] before the text goes into {{SLUG}}.txt. Ask her — she can
+almost certainly read her own hand, and a guess becomes her sentence in every
+copy that follows.
+
+------------------------------------------------
+
+[[p001]]
