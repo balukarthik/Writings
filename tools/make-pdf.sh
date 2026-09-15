@@ -37,17 +37,20 @@ python3 - "$src" "$tmp/$base.html" <<'PY'
 import html, sys, pathlib
 src, dst = sys.argv[1], sys.argv[2]
 text = pathlib.Path(src).read_text(encoding="utf-8")
-body = "\n".join(
-    "<p>&nbsp;</p>" if not line.strip() else f"<p>{html.escape(line)}</p>"
-    for line in text.splitlines()
-)
+# LibreOffice's HTML import ignores white-space:pre and adds its own spacing
+# around every <p>, so the text goes in as ONE paragraph with <br> line
+# breaks (honoured literally) and verse indentation as explicit &nbsp;.
+def line_html(line):
+    stripped = line.lstrip(" ")
+    return "&nbsp;" * (len(line) - len(stripped)) + html.escape(stripped)
+body = "<p>" + "<br>\n".join(line_html(l) for l in text.splitlines()) + "</p>"
 pathlib.Path(dst).write_text(f"""<!doctype html>
 <meta charset="utf-8">
 <style>
   @page {{ size: A4; margin: 2.2cm 2cm; }}
   body {{ font-family: 'Noto Serif Tamil', 'Noto Sans Tamil', serif;
          font-size: 12pt; line-height: 1.6; }}
-  p {{ margin: 0 0 0.35em 0; white-space: pre-wrap; }}  /* keep verse indents */
+  p {{ margin: 0; }}
 </style>
 <body>
 {body}
