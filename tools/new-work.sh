@@ -38,10 +38,10 @@ for var in AUTHOR_TA AUTHOR_EN AUTHOR_SLUG CUSTODIAN_TA CUSTODIAN_EN; do
   fi
 done
 
-if [ "$LICENSE_GRANTED_BY" = "FILL_ME" ]; then
-  echo "note: author.conf has no record of the licence being granted." >&2
-  echo "      CC BY 4.0 cannot be withdrawn once the work is public, so get" >&2
-  echo "      her agreement before uploading, and record it in author.conf." >&2
+if [ -z "${LICENSE_GRANTED_ON:-}" ] || [ "$LICENSE_GRANTED_ON" = "FILL_ME" ]; then
+  echo "note: author.conf has no date recorded for the licence grant." >&2
+  echo "      CC BY 4.0 cannot be withdrawn once the work is public, so keep" >&2
+  echo "      the record of her agreement accurate before uploading." >&2
   echo >&2
 fi
 

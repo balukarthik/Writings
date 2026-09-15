@@ -1,8 +1,8 @@
 # FreeTamilEbooks submission
 
-Send only after the text is proofread, and only once she has agreed to the
-CC BY 4.0 licence — see README, "Whose permission this is". They build
-EPUB/MOBI from what you send, so mistakes propagate into every reader's copy.
+Send only after the text is proofread. They build EPUB/MOBI from what you
+send, so mistakes propagate into every reader's copy. (She has agreed to
+CC BY 4.0 — see README, "Whose permission this is".)
 
 You are submitting **on her behalf**, not as the author. The body below says
 so; keep that wording.

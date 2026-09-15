@@ -31,17 +31,15 @@ The Tamil title lives *inside* the file, in the header.
 
 ## Whose permission this is
 
-CC BY 4.0 is a grant only the author can make, and once a work is public it
-cannot be withdrawn — copies stay lawfully in circulation. So the licence
-decision is hers, not the custodian's. Ask her, explain what it allows
-(anyone may copy, translate and republish, and must credit her), and record
-her answer in `author.conf` under `LICENSE_GRANTED_BY` / `LICENSE_GRANTED_ON`
-before anything is uploaded. If the rights sit with anyone else, the grant has
-to come from them instead.
+She has agreed to CC BY 4.0. `author.conf` holds the record, under
+`LICENSE_GRANTED_BY` / `LICENSE_GRANTED_ON` — worth keeping accurate, because
+the grant is hers and nobody else's to make, and because once a work is public
+the licence cannot be withdrawn: anyone may copy, translate and republish it,
+and must credit her.
 
-If that conversation hasn't happened yet, everything up to step 6 below is
-still worth doing — scanning and transcription are preservation regardless of
-what is eventually published.
+Everything published here goes out under that grant. Anything she has not
+released is still worth scanning and transcribing — steps 1 to 6 below are
+preservation either way — it simply stops before step 7.
 
 ## Adding a work
 
