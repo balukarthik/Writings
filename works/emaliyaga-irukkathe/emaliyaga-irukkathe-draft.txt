@@ -1,4 +1,4 @@
-WORKING DRAFT — not the archive copy. The clean text lives in emaliyaga-irukkakkudathu.txt.
+WORKING DRAFT — not the archive copy. The clean text lives in emaliyaga-irukkathe.txt.
 
 Keep this file. It is the audit trail: it records which notebook page every
 line came from, and which readings were ever in doubt.
@@ -6,14 +6,14 @@ line came from, and which readings were ever in doubt.
 Conventions
 -----------
 [[p012]]   at the start of each notebook page, matching the photo filename
-           emaliyaga-irukkakkudathu-p012.jpg — so any sentence can be traced back to the paper
+           emaliyaga-irukkathe-p012.jpg — so any sentence can be traced back to the paper
 [?]        a word that cannot be read with confidence
 [சொல்?]     a best guess, with the doubt marked — resolve it, do not leave it
 [[blank]]  a page with nothing written on it (record it, so gaps are visible)
 [margin: …] an insertion from the margin, placed where it belongs in the text
 [note: …]  something on the page that is not part of the work (a date, a list)
 
-Resolve every [?] before the text goes into emaliyaga-irukkakkudathu.txt. Ask her — she can
+Resolve every [?] before the text goes into emaliyaga-irukkathe.txt. Ask her — she can
 almost certainly read her own hand, and a guess becomes her sentence in every
 copy that follows.
 
@@ -21,18 +21,18 @@ copy that follows.
 
 
 [note: source is a typed image (a message-style graphic with a gradient
- background), not a notebook page. Whether she typed it herself or it was
- typed from a notebook is not yet known. The line breaks in the image are
+ background), not a notebook page. She typed it herself (confirmed via
+ Karthik, 2026-09-15); there is no handwritten original. The line breaks are
  the graphic's wrapping; the text is one prose paragraph. Punctuation is
  hers — she closes clauses with two dots (..) throughout, and writes
  "செயல் பட்டால்" with a space; both kept as written.]
-[note: title — the piece carries none. "ஏமாளியாக இருக்கக்கூடாது" is the
- custodian's choice, taken from her own closing sentence. Author to
- confirm or replace.]
+[note: title — the piece carries none in the image. The custodian
+ proposed "ஏமாளியாக இருக்கக்கூடாது" from her closing sentence; the author
+ replaced it with "ஏமாளியாக இருக்காதே" (2026-09-15). Hers stands.]
 [note: date of writing not yet known — the header year 2026 is a
  placeholder to be corrected.]
 
-ஏமாளியாக இருக்கக்கூடாது
+ஏமாளியாக இருக்காதே
 
 நேர்மையான குணமும், வெளிப்படைத் தன்மையும் மட்டும் நம்மை வெற்றிப் பாதையில் கொண்டு செல்லாது.. சந்தர்ப்ப சூழ்நிலைக்கு ஏற்ப சற்று சூட்சுமமாகவும், சுயநலமாகவும், சாமர்த்தியம் கலந்தும் செயல் பட்டால் தான் நம் வாழ்க்கையில் வெற்றியை அடைய முடியும்.. எனவே நண்பர்களே இன்றே விழித்துக் கொள்ளுங்கள்.. நமக்காக வாழ கற்றுக்கொள்ள வேண்டும் பிறருக்கு தீங்கு விளைவிக்காமல் நம்மைப் பற்றி சிந்தித்து நமக்காக வாழ்வதில் தவறில்லை.. நல்லவராக இருக்கலாம்.. ஏமாளியாக இருக்கக்கூடாது..
 
