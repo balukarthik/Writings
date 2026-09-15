@@ -64,7 +64,12 @@ def verse(body):
     and still reads as one line; blank lines become stanza gaps."""
     out = []
     for line in body.splitlines():
-        out.append('<p class="gap"></p>' if not line.strip() else f"<p>{html.escape(line)}</p>")
+        if not line.strip():
+            out.append('<p class="gap"></p>')
+        elif len(line) > 90:                     # a paragraph of prose, not a verse line
+            out.append(f'<p class="prose">{html.escape(line)}</p>')
+        else:
+            out.append(f"<p>{html.escape(line)}</p>")
     return "\n".join(out)
 
 def page(c, w, works):
@@ -142,6 +147,7 @@ h1.site { font-size:1.9rem; margin-top:1.5rem; }
 .text { font-size:1.25rem; line-height:2.05; }
 .text p { margin:0; white-space:pre-wrap; padding-left:1.4em; text-indent:-1.4em; }
 .text p.gap { height:1.2em; }
+.text p.prose { padding-left:0; text-indent:0; margin-bottom:1em; }
 @media (max-width: 480px) { .text { font-size:1.15rem; } }
 ul.works { list-style:none; padding:0; margin:0; }
 ul.works li { padding:.9rem 0; border-top:1px solid var(--rule); display:flex;
