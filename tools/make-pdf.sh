@@ -17,10 +17,11 @@ src="${1:-}"
 command -v soffice >/dev/null 2>&1 || {
   echo "error: libreoffice not found. Install libreoffice-writer." >&2; exit 1; }
 
-# Captured first, not piped straight into grep -q: under `set -o pipefail`,
-# grep -q exits early, fc-list dies of SIGPIPE, and the check misfires.
+# No pipe here on purpose: under `set -o pipefail`, `... | grep -q` lets grep
+# exit early, the producer dies of SIGPIPE, and the check misfires. A
+# here-string has no producer process, so it cannot.
 installed_fonts="$(fc-list 2>/dev/null || true)"
-if ! printf '%s' "$installed_fonts" | grep -qi tamil; then
+if ! grep -qi tamil <<<"$installed_fonts"; then
   echo "warning: no Tamil font found — output may render as empty boxes." >&2
   echo "         install fonts-noto-core, then re-run." >&2
 fi
