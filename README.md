@@ -1,12 +1,14 @@
 # Writings
 
-My mother's original Tamil writings — handwritten notebooks — transcribed and
+The original Tamil writings of **Rajarajeswari Balasubramanian**
+(**ராஜராஜேஸ்வரி பாலசுப்ரமணியன்**) — handwritten notebooks — transcribed and
 kept as plain UTF-8 text under Creative Commons Attribution 4.0.
 
-She is the author. This repository is custodianship — typing, typesetting and
-uploading — and that work carries no claim over the writing itself. Her name
-goes on every file, in every copyright line, and in archive.org's Creator
-field; the transcriber is credited separately, in the description.
+She is the author. This repository is custodianship by her son, Karthik Balu
+(கார்த்திக் பாலு) — typing, typesetting and uploading — and that work carries
+no claim over the writing itself. Her name goes on every file, in every
+copyright line, and in archive.org's Creator field; the transcriber is
+credited separately, in the description.
 
 **The `.txt` files are the archive.** Everything else — PDFs, EPUBs,
 archive.org items — is generated from them or uploaded from them. Plain text
