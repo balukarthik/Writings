@@ -50,6 +50,10 @@ archive.org — **never in this repository** (`.gitignore` enforces it).
   `works/<slug>/` with the header stamped, the draft file, and the archive.org
   sheet. Slugs are lowercase Latin letters and hyphens only. Always use the
   script; never hand-write the header.
+- `tools/build-site.py` — regenerates `docs/` (the GitHub Pages site) from
+  the works. **Run it after any change to a work's `.txt` and commit `docs/`
+  in the same commit**, or the site goes stale. Works with `[?]` left are
+  skipped automatically.
 - `tools/make-pdf.sh works/<slug>/<slug>.txt` — builds the upload PDF.
   Needs `libreoffice-writer` and `fonts-noto-core`; in a fresh remote
   container: `apt-get update && apt-get install -y libreoffice-writer

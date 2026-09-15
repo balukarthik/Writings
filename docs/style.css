@@ -1,0 +1,28 @@
+:root { color-scheme: light dark;
+  --bg:#fbf8f2; --fg:#1d1a16; --muted:#7a7268; --rule:#e5ddd0; --link:#8a4b1f; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#17150f; --fg:#ece6da; --muted:#9c9385; --rule:#2e2a22; --link:#e0a06a; } }
+html { background:var(--bg); color:var(--fg); }
+body { margin:0; font-family:"Noto Serif Tamil","Latha","Nirmala UI",serif;
+  font-size:1.15rem; line-height:1.9; -webkit-text-size-adjust:100%; }
+header { padding:1.2rem 1.25rem 0; }
+header .home { text-decoration:none; color:var(--muted); font-size:.95rem; }
+main { max-width:34rem; margin:0 auto; padding:2.5rem 1.25rem 4rem; }
+h1 { font-weight:600; font-size:1.7rem; line-height:1.4; margin:0 0 .3rem; }
+h1.site { font-size:1.9rem; margin-top:1.5rem; }
+.sub, .byline { color:var(--muted); margin:0 0 2.5rem; font-size:.95rem; }
+.text { font-size:1.25rem; line-height:2.05; }
+.text p { margin:0; white-space:pre-wrap; padding-left:1.4em; text-indent:-1.4em; }
+.text p.gap { height:1.2em; }
+@media (max-width: 480px) { .text { font-size:1.15rem; } }
+ul.works { list-style:none; padding:0; margin:0; }
+ul.works li { padding:.9rem 0; border-top:1px solid var(--rule); display:flex;
+  justify-content:space-between; gap:1rem; align-items:baseline; }
+ul.works li:last-child { border-bottom:1px solid var(--rule); }
+ul.works a { color:var(--fg); text-decoration:none; font-size:1.2rem; }
+ul.works a:hover { color:var(--link); }
+.when { color:var(--muted); font-size:.9rem; white-space:nowrap; }
+a { color:var(--link); }
+footer { margin-top:4rem; padding-top:1.2rem; border-top:1px solid var(--rule);
+  color:var(--muted); font-size:.85rem; line-height:1.7; }
+footer p { margin:.3rem 0; }

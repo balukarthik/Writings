@@ -25,6 +25,9 @@ notebooks/register.csv         The physical notebooks and what has been done wit
 templates/                     Licence header · working draft · archive.org sheet · email
 tools/new-work.sh              Scaffold a new work with the header already stamped
 tools/make-pdf.sh              Build an upload-ready PDF, typeset in Noto Serif Tamil
+tools/build-site.py            Build the readable website (docs/) from the works
+tools/upload-ia.sh             Upload a finished work to archive.org + Wayback, one command
+docs/                          The website — https://balukarthik.github.io/Writings/
 works/<slug>/<slug>-draft.txt  Working transcript, with page markers and doubts
 works/<slug>/<slug>.txt        The finished text — the thing being preserved
 ```
@@ -77,8 +80,12 @@ Then:
 4. **Move** the clean text below the dashed line in `<slug>.txt`, leaving the
    draft in place as the audit trail. Keep it UTF-8.
 5. **Build the PDF**: `tools/make-pdf.sh works/mazhai-kathai/mazhai-kathai.txt`
-6. **Commit and push** the `.txt`. (The PDF is gitignored — it is a build
-   product, and this repo stays text-only.)
+6. **Build the website page** — `tools/build-site.py` — then **commit and
+   push** the `.txt` and `docs/` together. (The PDF is gitignored — it is a
+   build product, and this repo stays text-only.) The page appears at
+   `https://balukarthik.github.io/Writings/<slug>/` a minute after the push.
+   That is the link to send to friends; archive.org is the vault, not the
+   reading copy.
 7. **Upload to archive.org** — one command, no web form:
    `tools/upload-ia.sh works/<slug> --date YYYY-MM-DD`. It reads the title
    and year from the file's own header, refuses if any `[?]` is left, sets
@@ -150,6 +157,19 @@ It still makes mistakes — ல/ள/ழ and ன/ண especially — so its output
 with doubts marked, never the final file. Resolving the `[?]` marks with her is
 step 3 above, and it does not get skipped. A few pages per session, checked,
 beats fifty pages of drift.
+
+## The website
+
+`docs/` is a static site generated from the works by `tools/build-site.py`
+and served by GitHub Pages at https://balukarthik.github.io/Writings/ — one
+page per work in a proper Tamil serif, her name on every page, readable on a
+phone. It is built from the same `.txt` files as everything else, so it can
+never say something the archive copy doesn't, and a work appears there only
+once its `[?]` markers are gone.
+
+One-time setup, in the repository's settings on GitHub: **Settings → Pages →
+Build and deployment → Source: "Deploy from a branch" → Branch: `main`,
+folder: `/docs` → Save.** Every push after that republishes.
 
 ## Why more than one place
 
