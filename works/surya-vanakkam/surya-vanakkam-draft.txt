@@ -67,3 +67,14 @@ Line 2: the transcriber misread the word. The page says உணராமலே
         author's instruction; the final text reads உணராமலே புலர்ந்து.
         Lesson for later pages: a dropped letter can still leave a real
         word, so a sense-check against the line is not enough on its own.
+
+------------------------------------------------
+Corrected 2026-09-15 — author, second pass
+------------------------------------------------
+Lines 1–3: the verb endings are relative participles, not adverbial ones —
+        விழித்த, புலர்ந்த, மலர்ந்த (not விழித்து, புலர்ந்து, மலர்ந்து).
+        The transcriber read the final letter as து in all three. With
+        her reading all three lines qualify செங்கதிரோனே, in parallel
+        with தோன்றிய on line 5. The final text now carries her reading.
+        The ending த/து on this hand needs specific attention on later
+        pages: the same misreading was made three times on one page.
