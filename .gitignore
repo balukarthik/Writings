@@ -1,0 +1,22 @@
+# This repository is TEXT ONLY. The .txt files are the master copies.
+#
+# Binaries do not belong in git history: PDFs are build products (make-pdf.sh
+# regenerates them from the .txt), and page scans belong on archive.org and in
+# Drive, not here. A repo that stays text-only stays small, diffable, and
+# readable on any device forever.
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.tif
+*.tiff
+*.zip
+*.epub
+*.mobi
+*.docx
+*.odt
+
+# Scratch
+.DS_Store
+*~
