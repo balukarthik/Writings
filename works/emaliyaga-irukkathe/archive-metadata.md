@@ -18,9 +18,9 @@ transcriber is credited in the description instead.
 | Field | Value |
 |---|---|
 | Page title | ஏமாளியாக இருக்காதே |
-| Identifier | `emaliyaga-irukkathe-rajarajeswari-balasubramanian-2026` |
+| Identifier | `emaliyaga-irukkathe-rajarajeswari-balasubramanian-2025` |
 | Creator | ராஜராஜேஸ்வரி பாலசுப்ரமணியன் / Rajarajeswari Balasubramanian |
-| Date | 2026 — the year it was **written**, not the year scanned |
+| Date | 2025 — the year it was **written**, not the year scanned |
 | Language | **Tamil** (`tam`) — must not be left as English |
 | Collection | Community Texts |
 | Licence | CC BY 4.0 |
@@ -29,7 +29,7 @@ transcriber is credited in the description instead.
 ## Description (paste as-is, then add a Tamil sentence or two above it)
 
 ```
-Original Tamil work by ராஜராஜேஸ்வரி பாலசுப்ரமணியன் (Rajarajeswari Balasubramanian), written 2026.
+Original Tamil work by ராஜராஜேஸ்வரி பாலசுப்ரமணியன் (Rajarajeswari Balasubramanian), written 2025.
 Digitised from the author's manuscript and published with her permission by
 Karthik Balu, 2026.
 Licensed CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
@@ -40,7 +40,7 @@ Licensed CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
 1. Wait for the item to go public (a few minutes), then record the URL below.
 2. Paste that URL into https://web.archive.org/save and record the snapshot URL.
 
-- Item URL: `https://archive.org/details/emaliyaga-irukkathe-rajarajeswari-balasubramanian-2026`
+- Item URL: `https://archive.org/details/emaliyaga-irukkathe-rajarajeswari-balasubramanian-2025`
 - Wayback snapshot: _(paste here)_
 
 **Why the language field matters:** if it is left as English, archive.org runs
