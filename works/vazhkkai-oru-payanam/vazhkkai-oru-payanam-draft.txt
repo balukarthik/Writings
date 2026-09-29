@@ -1,0 +1,42 @@
+WORKING DRAFT — not the archive copy. The clean text lives in vazhkkai-oru-payanam.txt.
+
+Keep this file. It is the audit trail: it records which notebook page every
+line came from, and which readings were ever in doubt.
+
+Conventions
+-----------
+[[p012]]   at the start of each notebook page, matching the photo filename
+           vazhkkai-oru-payanam-p012.jpg — so any sentence can be traced back to the paper
+[?]        a word that cannot be read with confidence
+[சொல்?]     a best guess, with the doubt marked — resolve it, do not leave it
+[[blank]]  a page with nothing written on it (record it, so gaps are visible)
+[margin: …] an insertion from the margin, placed where it belongs in the text
+[note: …]  something on the page that is not part of the work (a date, a list)
+
+Resolve every [?] before the text goes into vazhkkai-oru-payanam.txt. Ask her — she can
+almost certainly read her own hand, and a guess becomes her sentence in every
+copy that follows.
+
+------------------------------------------------
+
+
+[note: source is typed text, received as a pasted message via Karthik on
+ 2026-09-29, the day she wrote it — no image, no notebook page. Two
+ paragraphs, kept as two. Punctuation and spacing kept as received: the
+ double spaces in "இயற்கையும்  அப்படித்தான்" and "மனிதனின்  அழிவைகளைப்",
+ the missing space after commas in "மின்னல்,வெள்ளம்" and
+ "எதிர்பார்ப்புகளுக்கும்,விரக்திக்கும்", " ." and " .." with a space before.
+ One reading to put to her: "வேண்டும" near the end of the second paragraph
+ arrived without its final pulli (வேண்டும்). Kept as received; if it is a
+ typo she wants fixed, change it in the .txt and note it here.]
+[note: title — the piece carries none. "வாழ்க்கை என்பது ஒரு பயணம்..." is
+ the custodian's choice, her opening line. Author to confirm or replace.]
+
+வாழ்க்கை என்பது ஒரு பயணம்...
+
+வாழ்க்கை என்பது ஒரு பயணம்... இந்த பயணத்தை பற்றிய சில உண்மைகளை நாம் புரிந்து கொள்ள வேண்டும்.. வாழ்க்கை நம்மை பொருட்படுத்துவதே இல்லை...அது எப்பொழுதும் அதன் போக்கிலேயே தான் போய்க்கொண்டு இருக்கிறது.. இயற்கையும்  அப்படித்தான்... நம்மை பொருட்படுத்துவதே இல்லை... வெயில், இடி, மின்னல்,வெள்ளம் எந்த ஒரு இயற்கை சீற்றமும் மனிதனின்  அழிவைகளைப் பற்றி யோசித்துக் கொண்டா இருக்கிறது? கரை புரண்டு ஓடும் வெள்ளப்பெருக்கு ஒரு மனிதனின் அத்தனை சொத்துக்களையும் அடித்துச் சென்று விடுவது இல்லையா?..
+
+சில சமயங்களில் வாழ்க்கையில் நல்லது எது? கெட்டது எது என்று பிரித்தறிய முடிவதில்லை.. ஒரு சமயம் நமக்கு நல்லதாக தோன்றும் விஷயம் மற்றொரு சமயத்தில் கெட்டதாக தோன்றுகிறது . உதாரணத்திற்கு தண்ணீர்... குளிர்ந்த நீரோடையில் நாம் குளிக்கும் பொழுது தண்ணீரை மிகவும் அத்தியாவசியமானதாக நினைக்கிறோம்.. அதே தண்ணீர் கட்டுக்கடங்கா வெள்ளப் பெருக்கானால் அசம்பாவிதமாக தோன்றுகிறது... எதிர்பார்ப்புகளுக்கும்,விரக்திக்கும் இடையில் மனிதன் உழன்று கொண்டிருக்கிறான்...வாழ்க்கை நம்முடைய எதிர்பார்ப்புகளையும் மதிப்பதில்லை... நம் விரக்திக்காகவும் வருந்துவதில்லை... அது மனிதனை இரண்டிற்கும் இடையே தவிக்க விட்டு வேடிக்கை பார்க்கிறது.. இயற்கையும் அப்படித்தான்... உனக்காக ஒன்று எனக்காக ஒன்று ஒருபோதும் இயற்கை தருவதில்லை.. அதன் போக்கை சற்றும் மாற்றிக்கொள்வதில்லை... வாழ்க்கை சக்கரத்திலும், இயற்கை சீற்றத்திலும் மாறி மாறி சுழலும் மனிதனும் இனிமேல் எதைப்பற்றியும் சிந்திக்காமல் தன்னிச்சையாக வாழப் பழகிக் கொள்ள வேண்டும. நம் வாழ்க்கையும் சரி, இயற்கையும் சரி நமக்காக எந்தத் தியாகமும் செய்வதில்லை ..நம்மை தனி மனிதனாக மதிப்பதும் இல்லை.. நம் எதிர்பார்ப்புகளையும், ஏமாற்றங்களையும் பற்றி ஒரு வினாடி கூட நினைத்துப் பார்ப்பதில்லை... உனக்கு மட்டும் ஏன் இந்தத் தவிப்பு?
+
+------------------------------------------------
+Legibility: typed text, fully legible; no doubtful readings.
