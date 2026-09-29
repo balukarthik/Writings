@@ -26,9 +26,9 @@ copy that follows.
  double spaces in "இயற்கையும்  அப்படித்தான்" and "மனிதனின்  அழிவைகளைப்",
  the missing space after commas in "மின்னல்,வெள்ளம்" and
  "எதிர்பார்ப்புகளுக்கும்,விரக்திக்கும்", " ." and " .." with a space before.
- One reading to put to her: "வேண்டும" near the end of the second paragraph
- arrived without its final pulli (வேண்டும்). Kept as received; if it is a
- typo she wants fixed, change it in the .txt and note it here.]
+ "வேண்டும" near the end of the second paragraph arrived without its
+ final pulli; confirmed a typing slip (2026-09-29) and corrected to
+ வேண்டும் in the .txt. The draft below keeps the text as received.]
 [note: title — the piece carries none. The custodian first proposed her
  opening line, "வாழ்க்கை என்பது ஒரு பயணம்..."; Karthik asked for the sense
  of "why do YOU care?", so it became "உனக்கு மட்டும் ஏன்?", drawn from her
