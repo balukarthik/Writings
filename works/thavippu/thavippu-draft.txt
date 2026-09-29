@@ -44,3 +44,18 @@ copy that follows.
 
 ------------------------------------------------
 Legibility: typed text, fully legible; no doubtful readings.
+
+------------------------------------------------
+Addition 2026-09-29 — proposed by Karthik, approved by the author
+------------------------------------------------
+One sentence inserted in the first paragraph, after "...அதன் போக்கிலேயே
+தான் போய்க்கொண்டு இருக்கிறது.." and before "இயற்கையும் அப்படித்தான்...",
+to make plain what "life" means in the piece:
+
+  நம் இதயத் துடிப்பு, நம் மூச்சு, நம் செரிமானம், நாம் அறியாமலே செய்யும்
+  பழக்கங்கள்.. இவை எதுவும் நம்மைப் பற்றி நினைப்பதும் இல்லை, நம்மை
+  அறிவதும் இல்லை.. அதுதான் வாழ்க்கை..
+
+Drafted by the custodian at Karthik's suggestion, in her register; she
+approved it as written. The draft transcript above is the text as first
+received, without it; the .txt carries the approved text.
