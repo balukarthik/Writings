@@ -1,4 +1,4 @@
-WORKING DRAFT — not the archive copy. The clean text lives in vazhkkai-oru-payanam.txt.
+WORKING DRAFT — not the archive copy. The clean text lives in unakku-mattum-en.txt.
 
 Keep this file. It is the audit trail: it records which notebook page every
 line came from, and which readings were ever in doubt.
@@ -6,14 +6,14 @@ line came from, and which readings were ever in doubt.
 Conventions
 -----------
 [[p012]]   at the start of each notebook page, matching the photo filename
-           vazhkkai-oru-payanam-p012.jpg — so any sentence can be traced back to the paper
+           unakku-mattum-en-p012.jpg — so any sentence can be traced back to the paper
 [?]        a word that cannot be read with confidence
 [சொல்?]     a best guess, with the doubt marked — resolve it, do not leave it
 [[blank]]  a page with nothing written on it (record it, so gaps are visible)
 [margin: …] an insertion from the margin, placed where it belongs in the text
 [note: …]  something on the page that is not part of the work (a date, a list)
 
-Resolve every [?] before the text goes into vazhkkai-oru-payanam.txt. Ask her — she can
+Resolve every [?] before the text goes into unakku-mattum-en.txt. Ask her — she can
 almost certainly read her own hand, and a guess becomes her sentence in every
 copy that follows.
 
@@ -29,10 +29,12 @@ copy that follows.
  One reading to put to her: "வேண்டும" near the end of the second paragraph
  arrived without its final pulli (வேண்டும்). Kept as received; if it is a
  typo she wants fixed, change it in the .txt and note it here.]
-[note: title — the piece carries none. "வாழ்க்கை என்பது ஒரு பயணம்..." is
- the custodian's choice, her opening line. Author to confirm or replace.]
+[note: title — the piece carries none. The custodian first proposed her
+ opening line, "வாழ்க்கை என்பது ஒரு பயணம்..."; Karthik asked for the sense
+ of "why do YOU care?", so it became "உனக்கு மட்டும் ஏன்?", drawn from her
+ closing line (2026-09-29).]
 
-வாழ்க்கை என்பது ஒரு பயணம்...
+உனக்கு மட்டும் ஏன்?
 
 வாழ்க்கை என்பது ஒரு பயணம்... இந்த பயணத்தை பற்றிய சில உண்மைகளை நாம் புரிந்து கொள்ள வேண்டும்.. வாழ்க்கை நம்மை பொருட்படுத்துவதே இல்லை...அது எப்பொழுதும் அதன் போக்கிலேயே தான் போய்க்கொண்டு இருக்கிறது.. இயற்கையும்  அப்படித்தான்... நம்மை பொருட்படுத்துவதே இல்லை... வெயில், இடி, மின்னல்,வெள்ளம் எந்த ஒரு இயற்கை சீற்றமும் மனிதனின்  அழிவைகளைப் பற்றி யோசித்துக் கொண்டா இருக்கிறது? கரை புரண்டு ஓடும் வெள்ளப்பெருக்கு ஒரு மனிதனின் அத்தனை சொத்துக்களையும் அடித்துச் சென்று விடுவது இல்லையா?..
 

@@ -1,4 +1,4 @@
-# archive.org upload sheet — வாழ்க்கை என்பது ஒரு பயணம்...
+# archive.org upload sheet — உனக்கு மட்டும் ஏன்?
 
 Fill nothing in here by hand: `tools/new-work.sh` already substituted the
 details. Open https://archive.org, click **Upload**, and copy each value across.
@@ -9,16 +9,16 @@ transcriber is credited in the description instead.
 
 ## Files to upload (all three)
 
-- `vazhkkai-oru-payanam.txt` — the master text. **This is the one that matters.**
-- `vazhkkai-oru-payanam.pdf` — built with `tools/make-pdf.sh`
-- `vazhkkai-oru-payanam-scans.pdf` — the page photos, if you have them
+- `unakku-mattum-en.txt` — the master text. **This is the one that matters.**
+- `unakku-mattum-en.pdf` — built with `tools/make-pdf.sh`
+- `unakku-mattum-en-scans.pdf` — the page photos, if you have them
 
 ## Form values
 
 | Field | Value |
 |---|---|
-| Page title | வாழ்க்கை என்பது ஒரு பயணம்... |
-| Identifier | `vazhkkai-oru-payanam-rajarajeswari-balasubramanian-2026` |
+| Page title | உனக்கு மட்டும் ஏன்? |
+| Identifier | `unakku-mattum-en-rajarajeswari-balasubramanian-2026` |
 | Creator | ராஜராஜேஸ்வரி பாலசுப்ரமணியன் / Rajarajeswari Balasubramanian |
 | Date | 2026-09-29 — the date it was **written** |
 | Language | **Tamil** (`tam`) — must not be left as English |
@@ -40,7 +40,7 @@ Licensed CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
 1. Wait for the item to go public (a few minutes), then record the URL below.
 2. Paste that URL into https://web.archive.org/save and record the snapshot URL.
 
-- Item URL: `https://archive.org/details/vazhkkai-oru-payanam-rajarajeswari-balasubramanian-2026`
+- Item URL: `https://archive.org/details/unakku-mattum-en-rajarajeswari-balasubramanian-2026`
 - Wayback snapshot: _(paste here)_
 
 **Why the language field matters:** if it is left as English, archive.org runs
